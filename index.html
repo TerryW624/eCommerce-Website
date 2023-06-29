@@ -3,26 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="styles.css" rel="stylesheet">
+        <link href="styles.css" media="screen and (min-width: 700px)" rel="stylesheet">
+        <link href="smallscreen.css" media="screen and (max-width: 650px)" rel="stylesheet">
         <title>Cara Cara</title>
     </head>
     <body>
         <header class="HOME">
             <nav class="navbar">
-                <ul>
-                    <li><a>HOME</a></li>
-                    <li><a>ABOUT</a></li>
-                    <li><a>PRODUCTS</a></li>
-                    <li><a>CONTACT</a></li>
-                </ul>
+                <div class="navigate-page">
+                    <a>HOME</a>
+                    <a>ABOUT</a>
+                    <a>PRODUCTS</a>
+                    <a>CONTACT</a>
+                </div>
                 <h1>CARA <img src="eCommerceWebsiteAssets_GN_Starter-main/icons8-pottery-96.png" alt="orange pot logo"> CARA</h1>
-                <ul>
+                <div class="navigate-site">
                     <form name="search-site" class="search-site">
                         <input type="textbox" class="enter-query">
                         <input type="button" class="search">
                     </form>
-                    <li><a>CART (0)</a></li>
-                </ul>
+                    <a>CART (0)</a>
+                </div>
             </nav>
             <div>
                 <img src="eCommerceWebsiteAssets_GN_Starter-main/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="A potter's hands mold a clay into a ceramic pot on a turn table.">

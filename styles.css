@@ -1,5 +1,4 @@
 
-,
 ::before,
 ::after {
     margin: 0;
@@ -12,7 +11,7 @@ html {
     font-size: 62.5%;
 }
 
-.navbar > h1, .navbar > ul{
+.navbar > h1{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -20,26 +19,21 @@ html {
 
 }
 
-.navbar > ul{
-    justify-content: space-around;
-}
-
 .navbar img{
     width: 1em;
     height: 1em;
 }
 .search-site > .search{
-    width:2em;
-    height: 2em;
     background-image: url(eCommerceWebsiteAssets_GN_Starter-main/1200px-Google_Magnifying_Glass.svg.png);
     background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 20%;
+
 }
 
 .search-site > .enter-query{
     border-color: white;
     box-shadow: none;
-    height: 20px;
     border-radius: 8px;
 }
 
@@ -52,3 +46,18 @@ html {
     border-radius: 8px;
 }
 
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigate-page, .navigate-site{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: space-around;
+    min-width: 250px;
+    
+}
