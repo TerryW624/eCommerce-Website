@@ -51,6 +51,9 @@ html {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    border-bottom: black solid 5px;
+    margin-bottom: 20px;
+    width: 100vw;
 }
 
 .navigate-page, .navigate-site{
@@ -61,3 +64,45 @@ html {
     min-width: 250px;
     
 }
+.navigate-page > a {
+    padding: 5px;
+    border: black solid 1px;
+    border-radius: 10%;
+}
+
+.banner-img{
+    display: flex;
+    height: 500px;
+    background-image: url(eCommerceWebsiteAssets_GN_Starter-main/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: large;
+}
+.banner-img > .shadow{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(90deg, black, transparent, black);
+}
+
+.banner-img .starter{
+    align-self: flex-start;
+}
+.banner-img .ender{
+    align-self: flex-end;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.a-section-title {
+    
+}
+

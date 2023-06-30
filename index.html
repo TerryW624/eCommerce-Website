@@ -8,13 +8,13 @@
         <title>Cara Cara</title>
     </head>
     <body>
-        <header class="HOME">
+        <header class="home" id="home">
             <nav class="navbar">
                 <div class="navigate-page">
-                    <a>HOME</a>
-                    <a>ABOUT</a>
-                    <a>PRODUCTS</a>
-                    <a>CONTACT</a>
+                    <a href="#home">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#products">PRODUCTS</a>
+                    <a href="#contact">CONTACT</a>
                 </div>
                 <h1>CARA <img src="eCommerceWebsiteAssets_GN_Starter-main/icons8-pottery-96.png" alt="orange pot logo"> CARA</h1>
                 <div class="navigate-site">
@@ -25,21 +25,23 @@
                     <a>CART (0)</a>
                 </div>
             </nav>
-            <div>
-                <img src="eCommerceWebsiteAssets_GN_Starter-main/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="A potter's hands mold a clay into a ceramic pot on a turn table.">
-                <h2>CERAMICS CRAFTED BY HAND...</h2>
-                <h2>... FROM THE GROUND UP</h2>
+            <div class="banner-img">
+                <div class="shadow">
+                    <h2 class="starter">CERAMICS CRAFTED BY HAND...</h2>
+                    <h2 class="ender">... FROM THE GROUND UP</h2>
+                </div>
             </div>
         </header>
         <main>
-            <section class="ABOUT">
-                <h2>ABOUT US</h2>
-                <p></p>
-                <img src="eCommerceWebsiteAssets_GN_Starter-main/Cylinder_unglazed3_2048x2048.jpg" alt="A minimalist white ceramic vase holding brown plants">
-                <img src="eCommerceWebsiteAssets_GN_Starter-main/Vase_Dame_2048x2048.jpg" alt="A white vase dame with pearls around the neck holding a white and green floral arrangement.">
-                <p></p>
+            <section class="about" id="about">
+                <h2 class="a-section-title">ABOUT US</h2>
+                <p class="first-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img class="first-img" src="eCommerceWebsiteAssets_GN_Starter-main/Cylinder_unglazed3_2048x2048.jpg" alt="A minimalist white ceramic vase holding brown plants">
+                <img class="second-img" src="eCommerceWebsiteAssets_GN_Starter-main/Vase_Dame_2048x2048.jpg" alt="A white vase dame with pearls around the neck holding a white and green floral arrangement.">
+                <p class="second-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel orci porta non pulvinar neque laoreet suspendisse. Porta nibh venenatis cras sed felis eget velit aliquet. In mollis nunc sed id semper. Amet facilisis magna etiam tempor. In ornare quam viverra orci sagittis eu volutpat odio. Et odio pellentesque diam volutpat commodo. Urna porttitor rhoncus dolor purus. Nulla at volutpat diam ut venenatis. Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis. In massa tempor nec feugiat nisl pretium fusce. Morbi tristique senectus et netus et malesuada. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Odio pellentesque diam volutpat commodo sed. Nunc sed blandit libero volutpat sed cras ornare. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Risus in hendrerit gravida rutrum quisque non tellus. Libero volutpat sed cras ornare.<br>
+                    Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Scelerisque fermentum dui faucibus in ornare quam viverra. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Sit amet massa vitae tortor condimentum lacinia quis. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Non quam lacus suspendisse faucibus interdum posuere. In fermentum posuere urna nec tincidunt praesent semper. Nisl nunc mi ipsum faucibus vitae. Neque aliquam vestibulum morbi blandit cursus risus at ultrices mi. Vulputate eu scelerisque felis imperdiet. Diam vel quam elementum pulvinar etiam non quam. Vitae semper quis lectus nulla. Eu mi bibendum neque egestas congue quisque egestas diam in. Nunc scelerisque viverra mauris in aliquam sem. Vitae turpis massa sed elementum. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla. Sodales neque sodales ut etiam sit amet nisl purus. Scelerisque purus semper eget duis at tellus at urna condimentum. Massa massa ultricies mi quis hendrerit dolor magna eget.</p>
             </section>
-            <section class="PRODUCTS">
+            <section class="products" id="products">
                 <h2>OUR PRODUCTS</h2>
                 <article>
                     <img src="eCommerceWebsiteAssets_GN_Starter-main/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="Three ceramic white mundo bowls">
@@ -115,7 +117,7 @@
                 </article>
             </section>
         </main>
-        <section class="CONTACT">
+        <section class="contact" id="contact">
             <h2>CONTACT US</h2>
             <form class="contact-form">
                 <label for="email">EMAIL</label>
